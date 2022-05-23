@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden; 
+}
+
+.progress-container{
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  justify-content: space-between ;
+  margin-bottom: 1rem;
+  position: relative;
+  max-width: 100%;
+  width: 300px;
+
+}
+.container{
+  text-align: center;
+}
+.progress-bar{
+  background-color: rgb(46, 45, 45);
+  
+}
+.circle{
+  margin-left: 1rem;
+}
