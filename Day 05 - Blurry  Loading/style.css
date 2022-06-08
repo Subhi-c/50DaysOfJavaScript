@@ -21,7 +21,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  filter: blur(0px);
+  filter: blur(2px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,6 +30,8 @@ body{
 }
 
 .loading-text{
+  filter: none;
+  z-index: 100;
   font-size: 29px;
   color: #fff;
   font-style: bold;
