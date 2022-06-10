@@ -18,7 +18,7 @@ body{
   width: 100vw;
   top: 0;
   left: 0;
-  filter: blur(70px);
+  filter: blur(10px);
   z-index: -1;
 }
 
