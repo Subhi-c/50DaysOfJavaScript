@@ -1,15 +1,23 @@
-*{box-sizing: border-box;}
+*{
+  box-sizing: border-box;
+}
 body{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0;
-  background-color: #e3e3e3;
+  background-color: #ffffff;
 }
 .box{
   margin: 10px;
-  background-color: #ccc;
+  background-color: rgb(4, 76, 89);
   border-radius: 10px;
-  width: 90px;
+  height: 70px;
+  width: 250px;
+}
+
+h2{
+  color: white;
+  text-align: center;
 }
