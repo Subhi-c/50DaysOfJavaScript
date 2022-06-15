@@ -10,11 +10,14 @@ body{
   background-color: #ffffff;
 }
 .box{
-  margin: 10px;
-  background-color: rgb(4, 76, 89);
+  background-color: rgb(1, 64, 75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 10px;
-  height: 70px;
-  width: 250px;
+  margin: 10px;
+  height: 200px;
+  width: 400px;
 }
 
 h2{
